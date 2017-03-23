@@ -12,18 +12,21 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="email"/>
+        android:hint="email"
+        android:id="@+id/email_et"/>
 
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="password"/>
+        android:hint="password"
+        android:id="@+id/password_et"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LOGIN"/>
+        android:text="LOGIN"
+        android:onClick="login"/>
 
     <Button
         android:layout_width="match_parent"

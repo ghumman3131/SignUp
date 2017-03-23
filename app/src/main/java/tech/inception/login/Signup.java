@@ -38,11 +38,11 @@ public class Signup extends AppCompatActivity {
 
         if(name.equals(""))
         {
-            Toast t = new Toast(Signup.this);
 
-            t.makeText(Signup.this , "enter your name" , Toast.LENGTH_SHORT);
 
-            t.show();
+            Toast.makeText(Signup.this , "enter your name" , Toast.LENGTH_SHORT).show();
+
+
 
             return;
         }
